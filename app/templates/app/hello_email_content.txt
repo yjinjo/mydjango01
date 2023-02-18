@@ -1,0 +1,1 @@
+{{ event_name|default:"무명" }} 메세지 내용입니다.

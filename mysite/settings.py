@@ -128,7 +128,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # SMTP 설정
 EMAIL_HOST = os.environ.get("EMAIL_HOST")
-EMAIL_POST = os.environ.get("EMAIL_POST")
+EMAIL_PORT = os.environ.get("EMAIL_PORT")
 EMAIL_USER_SSL = os.environ.get("EMAIL_USER_SSL")
 EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
