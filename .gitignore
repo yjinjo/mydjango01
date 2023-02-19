@@ -138,6 +138,7 @@ __pycache__
 venv
 .venv
 .env
+migrations/
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm+all,macos,database
 

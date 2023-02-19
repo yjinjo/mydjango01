@@ -9,6 +9,7 @@ django-bootstrap5 = "*"
 
 [dev-packages]
 python-dotenv = "*"
+ipython = "*"
 
 [requires]
 python_version = "3.11"
