@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     # third apps
     "django_bootstrap5",
     # local apps
+    "accounts",
     "app",
     "catube",
 ]
@@ -134,3 +135,6 @@ EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
 
 DEFAULT_FROM_EMAIL = f"{EMAIL_HOST_USER}@naver.com"
+
+# 로그인 후에 이동할 주소
+LOGIN_REDIRECT_URL = "/app/"
